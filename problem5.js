@@ -4,6 +4,7 @@ function rikshawVara(peoples) {
     const bus = 50;
     const micro = 15;
     const rikshawCost = 20;
+    
     const remainAfterBus = peoples % bus;
     const remainAfterMicro = remainAfterBus % micro;
     return remainAfterMicro * rikshawCost;
